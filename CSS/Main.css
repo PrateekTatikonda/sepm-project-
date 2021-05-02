@@ -1,0 +1,295 @@
+body
+{
+    background-color:#141414;
+    color:#eeede6;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+header
+{
+    text-align: center;
+    display: grid;
+    font-size: 2em;
+    grid-template-columns: repeat(3, 1fr);
+    border-bottom-color: #570b0b;
+    border-bottom-style: solid;
+    border-radius: 1em;
+    border-width: 0.1em;
+    padding-bottom: 0.2em;
+}
+
+a
+{
+    color:#eeede6;
+    text-decoration: none;
+}
+
+h1
+{
+    text-align: center;
+    font-weight: bold;
+    margin: 2em;
+    font-size: 5em;
+}
+
+#componentsContainer
+{
+    display:grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-column-gap: 1em;
+}
+
+.components
+{
+    font-size: 1.5em;
+}
+
+h3{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.componentTitle
+{
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    border-style: solid;
+}
+
+input
+{
+    height: 25em;
+    width: 25em;
+}
+
+.componentIMG
+{
+    height: 10em;
+    width: 10em;
+    margin-left: 1.5em;
+}
+
+h2
+{
+    text-align: center;
+    font-size: 2em;
+    background-color: #242424;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    border-radius: 0.5em;
+    border-width: 0.5em;
+}
+
+#title
+{
+    margin-top: 1.5em;
+    text-align: center;
+    font-size: 5em;
+    background-color: #181818;
+    border-radius: 0em;
+}
+
+
+button
+{
+    font-size: 1.5em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+
+#next-component 
+{
+    display: block;
+    margin-left: 3em;
+    margin-right: 20em;
+}
+
+#previous-component
+{
+    margin-right: 3em;
+    margin-left: 15.3em;
+}
+
+button:disabled 
+{
+    background-color: darkgray;
+}
+
+#componentSwap
+{
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1em;
+}
+
+.componentSpecific
+{
+    text-align: center;
+}
+
+table
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+td
+{
+    padding-left: 3.3em;
+}
+
+.question
+{
+    display: none;
+}
+
+.question:first-child 
+{
+    display: block;
+}
+
+#title
+{
+    font-size: 3em;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px)
+{
+    h2 
+    {
+        font-size: 1.3em;
+    }
+    input
+    {
+        height: 15em;
+        width: 15em;
+    }
+    h3
+    {
+        font-size: 1.25em;
+    }
+    .componentIMG
+    {
+        height: 6em;
+        width: 6em;   
+        margin-left: 1.1em;     
+    }
+    #previous-component
+    {
+        margin-left: 4em;
+    }
+    table
+    {
+        margin-top: 3em;
+    }
+    td
+    {
+        padding-left: 2.6em;
+    }
+    #componentSwap
+    {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    #money
+    {
+        margin-top: 4em;
+    }
+    #total
+    {
+        font-size: 2em;
+    }
+    #money
+    {
+        margin-top: 0.5em;
+    }
+    #title
+    {
+        margin-top: 0.7em;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px)
+{
+    h2
+    {
+        font-size: 1.3em;
+    }
+    input
+    {
+        height: 15em;
+        width: 15em;
+    }
+    h3
+    {
+        font-size: 1.25em;
+    }
+    .componentIMG
+    {
+        height: 6em;
+        width: 6em;   
+        margin-left: 1.1em;     
+    }
+    #previous-component
+    {
+        margin-left: 5em;
+    }
+    table
+    {
+        margin-top: 3em;
+    }
+    td
+    {
+        padding-left: 3.2em;
+    }
+    #componentSwap
+    {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+}
+@media only screen and (min-width: 1440px)
+{
+    h3
+    {
+        font-size: 1.5em;
+    }
+    .componentIMG
+    {
+        height: 10em;
+        width: 10em;  
+        margin-left: 1.1em;     
+    }
+    #previous-component
+    {
+        margin-left: 14em;
+    }
+    table
+    {
+        margin-top: 3em;
+    }
+    td
+    {
+        padding-left: 2.4em;
+    }
+    input
+    {
+        height: 25em;
+        width: 25em;
+    }
+    #componentSwap
+    {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    #money
+    {
+        margin-top: 1em;
+    }
+    #total
+    {
+        font-size: 2em;
+    }
+}

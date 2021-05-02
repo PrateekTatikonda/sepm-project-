@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="CSS/Main.css">
+    <script defer src="JS/Main.js"></script>
+
+    <title>Main</title>
+
+</head>
+
+<body>
+    
+    <header>
+        <a href="Info.html">Info</a>
+        <a href="Main.html">PCPP</a>
+        <a href="About.html">About Us</a>
+    </header>
+
+<main>
+
+    <h1> Pick Your Parts </h1>
+
+    <div id="componentsContainer">
+
+		<section class="components" id="CPU">
+            <h3 class="componentTitle"> CPU </h3>
+            <input type="image" class="componentIMG" id="CpuIMG" src="IMG/CPU/i5.jpg" alt="CPU" name="CPU"/>
+		</section>
+
+		<section class="components" id="Mother"> 
+            <h3 class="componentTitle"> PCB </h3>
+            <input type="image" class="componentIMG" id="MotherIMG" src="IMG/PCB/MotherBoardMid.jpg" alt="MotherBoard" name="Mother"/>
+		</section>
+
+		<section class="components" id="Fan">
+            <h3 class="componentTitle"> Fan </h3>
+            <input type="image" class="componentIMG" id="FanIMG" src="IMG/Fan/FanMid.jpg" alt="Fan" name="Fan"/>
+        </section>
+        
+        <section class="components" id="RAM"> 
+            <h3 class="componentTitle"> RAM </h3>
+            <input type="image" class="componentIMG" id="RamIMG" src="IMG/RAM/RamMid.jpg" alt="RAM" name="RAM"/>
+        </section>
+        
+        <section class="components" id="GPU"> 
+            <h3 class="componentTitle"> GPU </h3>
+            <input type="image" class="componentIMG" id="GpuIMG" src="IMG/GPU/GpuMid.jpg" alt="GPU" name="GPU"/>
+        </section>
+        
+        <section class="components" id="PSU"> 
+            <h3 class="componentTitle"> PSU </h3>
+			<input type="image" class="componentIMG" id="PsuIMG" src="IMG/PSU/PsuMid.jpg" alt="PSU" name="PSU"/>
+        </section>
+        
+        <section class="components" id="Harddrive"> 
+            <h3 class="componentTitle"> HDD </h3>
+            <input type="image" class="componentIMG" id="HarddriveIMG" src="IMG/HDD/HddMid.jpg" alt="HDD/SSD" name="Harddrive"/>
+        </section>
+
+        <section class="components" id="Case">
+            <h3 class="componentTitle"> Case </h3>
+            <input type="image" class="componentIMG" id="CaseIMG" src="IMG/Case/CaseMid.jpg" alt="Case" name="Case"/>
+		</section>
+	</div>
+
+    <section id="money"> 
+        <h3 id="total"> Total: 0 </h3>
+    </section>
+
+    <h2 id="title"> Choose Component </h2>
+
+
+    <table>
+
+		<tr class="question">
+			<td> 
+                <h2> i3-9100f </h2>  
+                <input type="image" id="answer1_1" src="IMG/CPU/i3.jpg" alt="Budget" name="answer1" value="1" />
+                <h3> 1000 kr </h3> 
+            </td>
+			<td> 
+                <h2> i5-7600k </h2>
+                <input type="image" id="answer1_2" src="IMG/CPU/i5.jpg" alt="Mid Tier" name="answer1" value="2" />
+                <h3> 2500 kr </h3> 
+            </td>
+			<td>
+                <h2> i7-6700k </h2>
+                <input type="image" id="answer1_3" src="IMG/CPU/i7.jpg" alt="Luxury" name="answer1" value="3" />
+                <h3> 3300 kr </h3>
+             </td>
+        </tr>
+        
+        <tr class="question">
+			<td> 
+                <h2> Biostar </h2>  
+                <input type="image" id="answer2_1" src="IMG/PCB/MotherBoardBudget.png" alt="Budget" name="answer1" value="1" />
+                <h3> 1000 kr </h3>
+            </td>
+			<td> 
+                <h2> MSI B250 Mortar </h2>
+                <input type="image" id="answer2_2" src="IMG/PCB/MotherBoardMid.jpg" alt="Mid Tier" name="answer1" value="2" />
+                <h3> 2000 kr </h3>
+            </td>
+			<td>
+                <h2> Z390 Aorus Ultra </h2>
+                <input type="image" id="answer2_3" src="IMG/PCB/MotherBoardLuxury.jpg" alt="Luxury" name="answer1" value="3" />
+                <h3> 3000 kr </h3>
+            </td>
+        </tr>
+
+        <tr class="question">
+			<td> 
+                <h2> SnowMan </h2>  
+                <input type="image" id="answer3_1" src="IMG/Fan/FanBudget.jpg" alt="Budget" name="answer1" value="1" />
+                <h3> 200 kr </h3>
+            </td>
+			<td> 
+                <h2> Hyper 212 evo </h2>
+                <input type="image" id="answer3_2" src="IMG/Fan/FanMid.jpg" alt="Mid Tier" name="answer1" value="2" />
+                <h3> 400 kr </h3>
+            </td>
+			<td>
+                <h2> NH-D15 </h2>
+                <input type="image" id="answer3_3" src="IMG/Fan/FanLuxury.jpg" alt="Luxury" name="answer1" value="3" />
+                <h3> 800 kr </h3>    
+             </td>
+        </tr>
+
+        <tr class="question">
+			<td> 
+                <h2> Corsair 4GB </h2>  
+                <input type="image" id="answer4_1" src="IMG/RAM/RamBudget.jpg" alt="Budget" name="answer1" value="1" />
+                <h3> 300 kr </h3>
+            </td>
+			<td> 
+                <h2> Corsair 8GB </h2>
+                <input type="image" id="answer4_2" src="IMG/RAM/RamMid.jpg" alt="Mid Tier" name="answer1" value="2" />
+                <h3> 500 kr </h3>
+            </td>
+			<td>
+                <h2> Corsair 16GB </h2>
+                <input type="image" id="answer4_3" src="IMG/RAM/RamLuxury.jpg" alt="Luxury" name="answer1" value="3" />
+                <h3> 1000 kr </h3>
+             </td>
+        </tr>
+
+        <tr class="question">
+			<td> 
+                <h2> GTX 960 6GB</h2>  
+                <input type="image" id="answer5_1" src="IMG/GPU/GpuBudget.jpg" alt="Budget" name="answer1" value="1" />
+                <h3> 1500 kr </h3>
+            </td>
+			<td> 
+                <h2> GTX 1070 8GB </h2>
+                <input type="image" id="answer5_2" src="IMG/GPU/GpuMid.jpg" alt="Mid Tier" name="answer1" value="2" />
+                <h3> 4000 kr </h3>
+            </td>
+			<td>
+                <h2> RTX 2070 8GB </h2>
+                <input type="image" id="answer5_3" src="IMG/GPU/GpuLuxury.jpg" alt="Luxury" name="answer1" value="3" />
+                <h3> 7000 kr </h3>
+             </td>
+        </tr>
+
+        <tr class="question">
+			<td> 
+                <h2> VS 450W </h2>  
+                <input type="image" id="answer6_1" src="IMG/PSU/PsuBudget.jpg" alt="Budget" name="answer1" value="1" />
+                <h3> 500 kr </h3>
+            </td>
+			<td> 
+                <h2> LifePower 550W </h2>
+                <input type="image" id="answer6_2" src="IMG/PSU/PsuMid.jpg" alt="Mid Tier" name="answer1" value="2" />
+                <h3> 600 kr </h3>
+            </td>
+			<td>
+                <h2> VS 650W </h2>
+                <input type="image" id="answer6_3" src="IMG/PSU/PsuLuxury.jpg" alt="Luxury" name="answer1" value="3" />
+                <h3> 700 kr </h3>
+             </td>
+        </tr>
+
+        <tr class="question">
+			<td> 
+                <h2> Seagate, 1TB </h2>  
+                <input type="image" id="answer7_1" src="IMG/HDD/HddBudget.jpg" alt="Budget" name="answer1" value="1" />
+                <h3> 500 kr </h3>
+            </td>
+			<td> 
+                <h2> 850 EVO, 500GB</h2>
+                <input type="image" id="answer7_2" src="IMG/HDD/HddMid.jpg" alt="Mid Tier" name="answer1" value="2" />
+                <h3> 1000 kr </h3>
+            </td>
+			<td>
+                <h2> 860 Evo, 1TB </h2>
+                <input type="image" id="answer7_3" src="IMG/HDD/HddLuxury.jpg" alt="Luxury" name="answer1" value="3" />
+                <h3> 2000 kr </h3>
+             </td>
+        </tr>
+
+        <tr class="question">
+			<td> 
+                <h2> LC-Power 7024B </h2>  
+                <input type="image" id="answer8_1" src="IMG/Case/CaseBudget.jpg" alt="Budget" name="answer1" value="1" />
+                <h3> 500 kr </h3>
+            </td>
+			<td> 
+                <h2> CiT Raider Mid Tower </h2>
+                <input type="image" id="answer8_2" src="IMG/Case/CaseMid.jpg" alt="Mid Tier" name="answer1" value="2" />
+                <h3> 1000 kr </h3>
+            </td>
+			<td>
+                <h2> 400C ATX Mid Tower </h2>
+                <input type="image" id="answer8_3" src="IMG/Case/CaseLuxury.jpg" alt="Luxury" name="answer1" value="3" />
+                <h3> 1800 kr </h3>
+             </td>
+        </tr>
+
+    </table>
+
+
+    <div id="componentSwap">
+                
+        <button id="previous-component" disabled > Previous Component </button>
+                
+        <button id="next-component"> Next Component </button>
+
+    </div>
+
+</main>
+
+</body>
+
+</html>
