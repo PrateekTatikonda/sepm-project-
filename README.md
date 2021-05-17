@@ -1,5 +1,5 @@
-# sepm-project-
+# SEPM Web-Dev Project (2021)
 
-Pc Part Picker ------- Team X ( Prateek , Trishwanth , Varun )
+This is a Pc Part Picker which helps to build a customized personal computer. ------- Team X ( Prateek , Trishwanth , Varun )
 
 https://pcpartsbuilder.netlify.app
